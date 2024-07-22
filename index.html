@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eNull Administrative Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .main-content {
+            display: flex;
+            flex: 1;
+        }
+        .sidebars {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            width: 250px;
+        }
+        .sidebar {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            margin-left: 270px; /* Space for the sidebars */
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .category-list {
+            list-style: none;
+            padding: 0;
+        }
+        .category-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .category-list li:last-child {
+            border-bottom: none;
+        }
+        .category-list a {
+            text-decoration: none;
+            color: #333;
+        }
+        .category-list a:hover {
+            color: #007bff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>eNull Administrative Tools</h1>
+    </header>
+    <nav>
+        <a href="#admin-tools">Admin Tools</a>
+        <a href="#integration">Integration Capabilities</a>
+    </nav>
+    <div class="main-content">
+        <div class="sidebars">
+            <aside class="sidebar admin-tools">
+                <h2>Administrative Tools</h2>
+                <ul class="category-list">
+                    <li><a href="#">Admin Dashboard</a></li>
+                    <li><a href="#">User Management</a></li>
+                    <li><a href="#">Content Moderation</a></li>
+                    <li><a href="#">Site Configuration</a></li>
+                    <li><a href="#">System Monitoring</a></li>
+                    <li><a href="#">Access Control</a></li>
+                    <li><a href="#">Role-Based Permissions</a></li>
+                    <li><a href="#">Activity Logs</a></li>
+                    <li><a href="#">Error Reporting</a></li>
+                    <li><a href="#">Performance Metrics</a></li>
+                    <li><a href="#">Backup Management</a></li>
+                    <li><a href="#">Server Administration</a></li>
+                    <li><a href="#">Security Management</a></li>
+                    <li><a href="#">System Alerts</a></li>
+                    <li><a href="#">Resource Allocation</a></li>
+                    <li><a href="#">Site Maintenance</a></li>
+                    <li><a href="#">Update Management</a></li>
+                    <li><a href="#">Administrative Notifications</a></li>
+                    <li><a href="#">System Health Monitoring</a></li>
+                    <li><a href="#">Incident Management</a></li>
+                </ul>
+            </aside>
+            <aside class="sidebar integration-capabilities">
+                <h2>Integration Capabilities</h2>
+                <ul class="category-list">
+                    <li><a href="#">Payment Gateways</a></li>
+                    <li><a href="#">Shipping Providers</a></li>
+                    <li><a href="#">CRM Systems</a></li>
+                    <li><a href="#">Email Marketing Platforms</a></li>
+                    <li><a href="#">Social Media Networks</a></li>
+                    <li><a href="#">Analytics Tools</a></li>
+                    <li><a href="#">Content Delivery Networks (CDN)</a></li>
+                    <li><a href="#">Third-Party APIs</a></li>
+                    <li><a href="#">Affiliate Networks</a></li>
+                    <li><a href="#">Inventory Management Systems</a></li>
+                    <li><a href="#">Customer Support Platforms</a></li>
+                    <li><a href="#">Data Integration Tools</a></li>
+                    <li><a href="#">Marketing Automation Tools</a></li>
+                    <li><a href="#">Security Tools</a></li>
+                    <li><a href="#">Cloud Services</a></li>
+                    <li><a href="#">ERP Systems</a></li>
+                    <li><a href="#">E-commerce Platforms</a></li>
+                    <li><a href="#">Advertising Networks</a></li>
+                    <li><a href="#">Voice Assistants</a></li>
+                    <li><a href="#">IoT Devices</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="content">
+            <div class="section" id="admin-tools">
+                <h2>Administrative Tools</h2>
+                <p>Manage and configure your site with these tools:</p>
+                <ul>
+                    <li>Admin Dashboard: Overview and control panel.</li>
+                    <li>User Management: Manage user accounts and permissions.</li>
+                    <li>Content Moderation: Review and manage site content.</li>
+                    <li>Site Configuration: Customize site settings.</li>
+                    <li>System Monitoring: Track system performance and issues.</li>
+                    <!-- Add detailed descriptions for each tool as needed -->
+                </ul>
+            </div>
+            <div class="section" id="integration">
+                <h2>Integration Capabilities</h2>
+                <p>Integrate with various systems and services:</p>
+                <ul>
+                    <li>Payment Gateways: Process transactions securely.</li>
+                    <li>Shipping Providers: Manage shipping and logistics.</li>
+                    <li>CRM Systems: Customer relationship management.</li>
+                    <li>Email Marketing Platforms: Run email campaigns.</li>
+                    <li>Social Media Networks: Connect with social media platforms.</li>
+                    <!-- Add detailed descriptions for each capability as needed -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> eNull. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Update copyright year dynamically
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
